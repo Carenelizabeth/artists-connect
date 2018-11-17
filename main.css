@@ -1,0 +1,46 @@
+.header-image{
+    background-image: url("https://images.unsplash.com/photo-1501084817091-a4f3d1d19e07?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d727fdcff7a7f9bfb440b887ce345c28&auto=format&fit=crop&w=600&q=60");
+    height: 80vh;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.color-wheel-section{
+    height: 500px;
+}
+
+.color-wheel{
+    background-color: #EEE;
+    border: 1px black solid;
+}
+
+.feature-stories{
+    height: 400px;
+}
+
+.feature-story{
+    border: 1px black solid;
+    height: 100%;
+}
+
+.main-search-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-info{
+    padding-top: 20vh;
+}
+
+.color-wheel-list{
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
