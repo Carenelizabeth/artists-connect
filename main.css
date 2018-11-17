@@ -1,6 +1,19 @@
+header{
+    margin-bottom: 5vh;
+}
+
+h1{
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
 .header-image{
-    background-image: url("https://images.unsplash.com/photo-1501084817091-a4f3d1d19e07?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d727fdcff7a7f9bfb440b887ce345c28&auto=format&fit=crop&w=600&q=60");
-    height: 80vh;
+    background: linear-gradient(
+            rgba(0,0,0,0.25),
+            rgba(0,0,0,.45)
+        ),
+        url("https://images.unsplash.com/photo-1501084817091-a4f3d1d19e07?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d727fdcff7a7f9bfb440b887ce345c28&auto=format&fit=crop&w=600&q=60");
+    height: 90vh;
     color: white;
     background-position: center;
     background-size: cover;
@@ -11,11 +24,8 @@
 
 .color-wheel-section{
     height: 500px;
-}
-
-.color-wheel{
-    background-color: #EEE;
-    border: 1px black solid;
+    position: relative;
+    margin-bottom: 10vh;
 }
 
 .feature-stories{
@@ -43,4 +53,86 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.color-wheel-image{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.color-wheel-full{
+    background-image: url("https://images.unsplash.com/photo-1464820453369-31d2c0b651af?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bee2aae224bc536d92722ebfedf016b4&auto=format&fit=crop&w=600&q=60");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+
+}
+
+.color-wheel-red{
+    background-color: red;
+}
+
+.color-wheel-orange{
+    background-color: orange;
+}
+
+.color-wheel-yellow{
+    background-color: yellow;
+}
+
+.color-wheel-green{
+    background-color: green;
+}
+
+.color-wheel-blue{
+    background-color: blue;
+}
+
+.color-wheel-purple{
+    background-color: purple;
+}
+
+.js-zidnex-flat{
+    z-index: 0;
+}
+
+.js-zindex-top{
+    z-index: 10;
+}
+
+.digital-art-link{
+    height: 40px;
+    width: 60px;
+    margin-right: 20px;
+}
+
+.icon-red{
+    background-color: red;
+}
+
+.icon-orange{
+    background-color: orange;
+}
+
+.icon-yellow{
+    background-color: yellow;
+}
+
+.icon-green{
+    background-color: green;
+}
+
+.icon-blue{
+    background-color: blue;
+}
+
+.icon-purple{
+    background-color: purple;
 }
