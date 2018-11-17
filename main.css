@@ -7,6 +7,10 @@ h1{
     margin-bottom: 10vh;
 }
 
+.display-none{
+    display: none;
+}
+
 .header-image{
     background: linear-gradient(
             rgba(0,0,0,0.25),
@@ -66,13 +70,13 @@ h1{
     bottom: 0;
 }
 
+
 .color-wheel-full{
     background-image: url("https://images.unsplash.com/photo-1464820453369-31d2c0b651af?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bee2aae224bc536d92722ebfedf016b4&auto=format&fit=crop&w=600&q=60");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     height: 100%;
-
 }
 
 .color-wheel-red{
@@ -99,13 +103,6 @@ h1{
     background-color: purple;
 }
 
-.js-zidnex-flat{
-    z-index: 0;
-}
-
-.js-zindex-top{
-    z-index: 10;
-}
 
 .digital-art-link{
     height: 40px;
