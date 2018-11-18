@@ -62,4 +62,13 @@ function displayFullWheel(){
     $('.color-wheel-full').removeClass('display-none');
 }
 
+
+function handleNavButtons(){
+    $('.js-home-button').click(function(){
+        window.location = "http://www.artistconnect.co/"
+    })
+}
+
+
 handleColorIcons();
+handleNavButtons();
