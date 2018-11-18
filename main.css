@@ -340,6 +340,22 @@ blockquote::before{
       color: red;
   }
 
+  .resource-name-crafts, .color-crafts{
+      color: yellow;
+  }
+
+  .resource-name-fabrication, .color-fabrication{
+      color: green;
+  }
+
+  .resource-name-performing, .color-performing{
+      color: blue;
+  }
+
+  .resource-name-music, .color-music{
+      color: purple;
+  }
+
   h2{
       font-weight: bold;
   }
