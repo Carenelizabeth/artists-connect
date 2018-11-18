@@ -227,6 +227,7 @@ h1{
 
 .feature-image img{
     width: 100%;
+    height: 250px;
 }
 
 .feature-section{
@@ -333,27 +334,27 @@ blockquote::before{
   }
 
   .resource-name-performing, .color-performing{
-      color: blue;
+      color: #ef694d;
   }
 
   .resource-name-digital, .color-digital{
-      color: red;
+      color: #85d66b;
   }
 
   .resource-name-crafts, .color-crafts{
-      color: yellow;
+      color: #4190ce;
   }
 
   .resource-name-fabrication, .color-fabrication{
-      color: green;
+      color: #bb3cea;
   }
 
-  .resource-name-performing, .color-performing{
-      color: blue;
+  .resource-name-fine, .color-fine{
+      color: #f3e762;
   }
 
   .resource-name-music, .color-music{
-      color: purple;
+      color: #fcba4a;
   }
 
   h2{
@@ -388,17 +389,23 @@ blockquote::before{
   }
 
   .review-icon-performing{
-      background-image: url(assets/blue-slice.png);
+      background-image: url(assets/red-slice.png);
   }
 
   .review-icon-digital{
-      background-image: url(assets/red-slice.png);
+      background-image: url(assets/green-slice.png);
+  }
+
+  .review-icon-crafts{
+      background-image: url(assets/blue-slice.png)
   }
 
 
   /*Search page*/
   .large-map{
-      background-color: green;
+      background-image: url(assets/lv-map.png);
+      background-size: cover;
+      background-position: center;
       height: 80vh;
   }
 

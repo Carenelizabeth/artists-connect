@@ -51,5 +51,23 @@ const locationSTORE = [
         },
         Category: "digital",
         Rate: "$120/2hrs",
+    },
+    {
+        Name: "Pincushion – A Sewing Shop",
+        ImageURL: "https://static.wixstatic.com/media/591c392b8ecd50d325e1041d0411bc94.jpg/v1/fill/w_1289,h_678,al_c,q_85/Sewing%20Studio.webp",
+        Reviews: [
+            {
+                Name: "Shannon",
+                Review: "I had a time constraint of only a few days to get my maid of honor dress altered and she managed to finish even an extra day early! She was so easy to communicate with and extremely reasonably priced! Thank you so so much!"
+            }
+        ],
+        Description: "Pincushion is a creative work space where we offer Alterations Services, Sewing Classes, Artistic Workshops, and Custom Creations. You can find us in the heart of the Las Vegas Arts District. Contact us today to book your alterations appointment or to reserve your spot in one of our classes!",
+        Location: {
+            Latitude: "36.13192",
+            Longitude: "-115.192420",
+        },
+        Category: "crafts",
+        Rate: "Work Space Rental - $10/hour",
     }
+ 
 ]

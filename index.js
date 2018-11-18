@@ -72,7 +72,7 @@ function handleNavButtons(){
 function displayFeatures(){
     let data1 = renderFeatures(1)
     let data2 = renderFeatures(2)
-    let data3 = renderFeatures(0)
+    let data3 = renderFeatures(3)
 
     $('.js-feature-left').html(data1);
     $('.js-feature-center').html(data2);
