@@ -149,10 +149,20 @@ h1{
     height: 500px;
 }
 
-.product-summary{
-    border: solid 1px black;
+.product-main{
+    margin-top: 2vh;
+    margin-bottom: 10vh;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
-.product-reviews{
-    border: solid 1px black;
+.product-image{
+    height: 100%;
+    width: 100%;
+}
+
+.product-map{
+    background-image: url("http://display.maxvr.com/maps/mapimages/LasVegas.gif");
+    background-size: cover;
+    background-position: center;
 }
