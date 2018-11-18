@@ -1,6 +1,17 @@
 nav{
     height: 50px;
     background-color: #2D4044;
+    display: flex;
+    flex-direction: row;
+    display: space-between;
+}
+
+.home-button{
+    height: 50px;
+    width: 100px;
+    background-image: url(assets/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header{
