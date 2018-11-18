@@ -305,6 +305,7 @@ blockquote::before{
     margin-bottom: 10px;
     font-family: 'Courgette', cursive;
     align-self: flex-end;
+    text-align: right;
   }
   
   .review-author::before{
