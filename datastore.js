@@ -17,7 +17,7 @@ const locationSTORE = [
             Latitude: "36.276530",
             Longitude: "-115.179710",
         },
-        Category: "Performing Arts",
+        Category: "performing",
         Rate: "$27/hr"
     },
     {Name: "Sin City Stages",
@@ -33,7 +33,7 @@ const locationSTORE = [
             Latitude: "36.1699",
             Longitude: "-115.1398",
         },
-        Category: "Performing Arts",
+        Category: "performing",
         Rate: "$800/ 8 hr day"},
     {
         Name: "Vegas Photo Studio Rentals",
@@ -49,7 +49,7 @@ const locationSTORE = [
             Latitude: "36.13192",
             Longitude: "-115.192420",
         },
-        Category: "Digital Art",
+        Category: "digital",
         Rate: "$120/2hrs",
     }
 ]

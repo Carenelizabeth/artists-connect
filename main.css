@@ -220,6 +220,9 @@ h1{
 
 .product-main{
     min-height: 500px;
+    background-color: #E3EBED;
+    padding: 20px;
+    border-radius: 5px;
 }
 
 .product-additional{
@@ -251,15 +254,16 @@ h1{
 }
 
 .each-review{
-    background-color: #EEE;
-    border-radius: 20px;
+    background-color: #E3EBED;
     padding: 15px 20px 10px 30px;
     margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 .review-rating{
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/5_stars.svg/2000px-5_stars.svg.png");
     height: 30px;
+    width: 100px;
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: -5px;
@@ -277,7 +281,7 @@ blockquote{
 }
 
 blockquote::before{
-    color: #ccc;
+    color: #818687;
     content: "\201C";;
     font-size: 4em;
     line-height: 0.1em;
@@ -286,7 +290,7 @@ blockquote::before{
   }
   
   blockquote::after{
-    color: #ccc;
+    color: #818687;
     content: "\201D";;
     font-size: 4em;
     line-height: 0.1em;
@@ -309,6 +313,54 @@ blockquote::before{
   .rate{
       font-weight: bold;
   }
+
+  .resource-name-performing{
+      color: blue;
+  }
+
+  .resource-name-digital{
+      color: red;
+  }
+
+  h2{
+      font-weight: bold;
+  }
+
+  .review-title-wrapper{
+      display: flex;
+      flex-direction: row;
+      height: 100px;
+      margin-bottom: 20px;
+  }
+
+  .review-title{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+
+  .review-type-icon{
+      height: 100%;
+      width: 100px;
+  }
+
+  .review-icon{
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 100%;
+      width: 100%;
+  }
+
+  .review-icon-performing{
+      background-image: url(assets/blue-slice.png);
+  }
+
+  .review-icon-digital{
+      background-image: url(assets/red-slice.png);
+  }
+
 
   /*Search page*/
   .large-map{
