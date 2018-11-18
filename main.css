@@ -34,6 +34,10 @@ nav{
     height: 75px;
 }
 
+li h3:hover{
+    color: blue;
+}
+
 .sign-up-group{
     position: absolute;
     right: 0;

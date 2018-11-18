@@ -24,8 +24,8 @@ const locationSTORE = [
         ImageURL: "http://sincitystages.com/wp-content/uploads/2018/03/sets16-1600x1067.jpg",
         Reviews: [
             {
-                Name: "Starving artist",
-                Review: "I love this place because I can sit in the green room and pretend like I have a job"
+                Name: "Super Rich Artist",
+                Review: "I love this place because I have made tons of money with the films I've created here"
             },
         ],
         Description: "Includes stage lighting, access to props, a space green room, makeup area, break room, bathrooms, wifi and 5 parking spaces",
