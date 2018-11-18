@@ -88,15 +88,6 @@ const locationSTORE = [
         Rate: "",
     },
     {
-        Name: "Sewing Machine",
-        ImageURL: "https://images.pexels.com/photos/1148963/pexels-photo-1148963.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        Reviews: [],
-        Description: "",
-        Location: {},
-        Category: "fabrication",
-        Rate: "",
-    },
-    {
         Name: "Embroidery Kit",
         ImageURL: "https://images.pexels.com/photos/1232131/pexels-photo-1232131.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         Reviews: [],
@@ -157,15 +148,6 @@ const locationSTORE = [
         Description: "",
         Location: {},
         Category: "fine",
-        Rate: "",
-    },
-    {
-        Name: "Doublebass",
-        ImageURL: "https://cdn.shopify.com/s/files/1/1862/8025/products/STUDENT_DOUBLE_BASS_ENSEMBLE_DBA44-NT.png?v=1491850609",
-        Reviews: [],
-        Description: "",
-        Location: {},
-        Category: "music",
         Rate: "",
     },
     {

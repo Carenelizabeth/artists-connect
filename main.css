@@ -486,7 +486,6 @@ blockquote::before{
     padding:20px;
     flex: auto;
     flex-basis: 200px;
-    min-height: 320px;
     margin: 20px;
     border-radius: 20px;
     -webkit-box-shadow: -1px 3px 16px 0px rgba(15,22,23,0.62);
