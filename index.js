@@ -52,6 +52,10 @@ function handleColorIcons(){
         $('.color-wheel-purple').addClass('display-none');
         displayFullWheel();
     })
+
+    $('.color-wheel-list-item').click(e => {
+        window.location = "http://www.artistconnect.co/searchResults"
+    })
 }
 
 function hideFullWheel(){

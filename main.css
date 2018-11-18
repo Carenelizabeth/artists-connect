@@ -450,3 +450,16 @@ blockquote::before{
   .each-result:nth-child(even){
       background-color: #E3EBED;
   }
+
+  a{
+      color: black;
+  }
+
+  .product-link{
+      color:black;
+  }
+
+  .product-link:active{
+    text-decoration: none;
+    color: red;
+  }
