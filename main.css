@@ -232,3 +232,10 @@ blockquote::before{
   .rate{
       font-weight: bold;
   }
+
+  /*Search page*/
+  .large-map{
+      background-color: green;
+      height: 80vh;
+  }
+
