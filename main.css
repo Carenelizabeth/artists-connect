@@ -1,6 +1,6 @@
 nav{
     height: 50px;
-    background-color: rgba(0,0,0,.8);
+    background-color: #2D4044;
 }
 
 header{
@@ -22,7 +22,7 @@ h1{
             rgba(0,0,0,.45)
         ),
         url("https://images.unsplash.com/photo-1501084817091-a4f3d1d19e07?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d727fdcff7a7f9bfb440b887ce345c28&auto=format&fit=crop&w=600&q=60");
-    height: 90vh;
+    height: 80vh;
     color: white;
     background-position: center;
     background-size: cover;
@@ -85,58 +85,70 @@ h1{
 }
 
 .color-wheel-red{
-    background-color: red;
+    background-image: url(assets/red-wheel.png);
 }
 
 .color-wheel-orange{
-    background-color: orange;
+    background-image: url(assets/orange-wheel.png);
 }
 
 .color-wheel-yellow{
-    background-color: yellow;
+    background-image: url(assets/yellow-wheel.png);
 }
 
 .color-wheel-green{
-    background-color: green;
+    background-image: url(assets/green-wheel.png);
 }
 
 .color-wheel-blue{
-    background-color: blue;
+    background-image: url(assets/blue-wheel.png);
 }
 
 .color-wheel-purple{
-    background-color: purple;
+    background-image: url(assets/purple-wheel.png);
 }
 
 
 .digital-art-link{
-    height: 40px;
+    height: 60px;
     width: 60px;
     margin-right: 20px;
 }
 
 .icon-red{
-    background-color: red;
+    background-image: url(assets/red-slice.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .icon-orange{
-    background-color: orange;
+    background-image: url(assets/orange-slice.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .icon-yellow{
-    background-color: yellow;
+    background-image: url(assets/yellow-slice.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .icon-green{
-    background-color: green;
+    background-image: url(assets/green-slice.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .icon-blue{
-    background-color: blue;
+    background-image: url(assets/blue-slice.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .icon-purple{
-    background-color: purple;
+    background-image: url(assets/purple-slice.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /*Product page*/
