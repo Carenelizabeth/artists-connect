@@ -410,15 +410,18 @@ blockquote::before{
       margin-bottom: 5vh;
   }
 
+  .filter-input{
+      background-color: #E3EBED;
+      margin-bottom: 4vh;
+  }
+
   .search-filter-form{
       width: 100vw;
       background-color: #E3EBED;
       display: flex;
       justify-content: space-around;
       padding: 15px;
-      border-radius: 5px;
       margin-left: 20px;
-      margin-bottom: 5vh;
   }
 
   .each-input label{
@@ -431,4 +434,19 @@ blockquote::before{
       height: 40px;
       width: 200px;
       border-radius:5px;
+  }
+
+  .each-result{
+      display: flex;
+      padding:20px;
+  }
+
+  .result-image img{
+    height: 90%;
+    width: 90%;
+    padding-left: 20px;
+  }
+
+  .each-result:nth-child(even){
+      background-color: #E3EBED;
   }
