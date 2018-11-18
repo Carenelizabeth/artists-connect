@@ -1,3 +1,8 @@
+nav{
+    height: 50px;
+    background-color: rgba(0,0,0,.8);
+}
+
 header{
     margin-bottom: 5vh;
 }
@@ -132,4 +137,22 @@ h1{
 
 .icon-purple{
     background-color: purple;
+}
+
+/*Product page*/
+
+.product-main{
+    height: 500px;
+}
+
+.product-additional{
+    height: 500px;
+}
+
+.product-summary{
+    border: solid 1px black;
+}
+
+.product-reviews{
+    border: solid 1px black;
 }
