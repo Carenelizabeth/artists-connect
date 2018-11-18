@@ -12,6 +12,11 @@ h1{
     margin-bottom: 10vh;
 }
 
+.site-title{
+    font-family: fatfrank, sans-serif;
+    font-size: 80px;
+}
+
 .display-none{
     display: none;
 }
@@ -50,6 +55,15 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.main-search-form label{
+    font-size: 42px;
+}
+
+.main-search-form input{
+    width: 350px;
+    height: 50px;
 }
 
 .header-info{
