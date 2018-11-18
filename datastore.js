@@ -1,6 +1,6 @@
 const locationSTORE = [
     {
-    Name: "Sole Intensity Dance Academy",
+        Name: "Sole Intensity Dance Academy",
         ImageURL: "https://www.soleintensitydance.com/uploads/1/1/9/1/119177682/studio4-min-min_orig.jpg",
         Reviews: [
             {
@@ -22,10 +22,10 @@ const locationSTORE = [
     },
     {Name: "Sin City Stages",
         ImageURL: "http://sincitystages.com/wp-content/uploads/2018/03/sets16-1600x1067.jpg",
-        Review: [
+        Reviews: [
             {
                 Name: "Starving artist",
-                Reviews: "I love this place because I can sit in the green room and pretend like I have a job"
+                Review: "I love this place because I can sit in the green room and pretend like I have a job"
             },
         ],
         Description: "Includes stage lighting, access to props, a space green room, makeup area, break room, bathrooms, wifi and 5 parking spaces",
@@ -38,7 +38,7 @@ const locationSTORE = [
     {
         Name: "Vegas Photo Studio Rentals",
         ImageURL: "http://vegasphotostudiorentals.com/wp-content/themes/ThisWay/includes/timthumb.php?src=http://vegasphotostudiorentals.com/wp-content/uploads/2012/04/bg_0BA4gANmHHJXZW6O.jpg&w=120&h=80&zc=1&q=100",
-        Review: [
+        Reviews: [
             {
                 Name: "Annoyed User",
                 Review: "This would be a great place except that the website is really horrible. You should definitely book through artists connect"
