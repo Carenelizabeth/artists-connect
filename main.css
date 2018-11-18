@@ -9,7 +9,7 @@ nav{
 
 .nav-home-page{
     position: absolute;
-    height: 100px;
+    height: 75px;
     top: 0;
     left: 0;
     right: 0;
@@ -17,8 +17,8 @@ nav{
 }
 
 .nav-home-page .home-button{
-    height: 100px;
-    width: 200px;
+    height: 75px;
+    width: 150px;
 }
 
 .home-button{
@@ -31,7 +31,7 @@ nav{
 
 .nav-home-page .sign-up-group{
     width: 400px;
-    height: 100px;
+    height: 75px;
 }
 
 .sign-up-group{
@@ -39,6 +39,7 @@ nav{
     right: 0;
     top: 0;
     width: 400px;
+    padding-right: 30px;
     height: 75px;
     display: flex;
     justify-content: center;
@@ -47,11 +48,12 @@ nav{
 
 .sign-up-group button{
     margin-left: 30px;
-    height: 50px;
+    height: 40px;
     width: 150px;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 18px;
     color: #0F1617;
+    background-color: #E3EBED;
 }
 
 h1{
@@ -62,7 +64,7 @@ h1{
 
 .site-title{
     font-family: fatfrank, sans-serif;
-    font-size: 80px;
+    font-size: 60px;
 }
 
 .display-none{
@@ -93,12 +95,17 @@ h1{
 }
 
 .feature-stories{
-    height: 400px;
+    min-height: 400px;
 }
 
 .feature-story{
-    border: 1px black solid;
     height: 100%;
+}
+
+.each-feature{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .main-search-form{
@@ -108,12 +115,12 @@ h1{
 }
 
 .main-search-form label{
-    font-size: 42px;
+    font-size: 26px;
 }
 
 .main-search-form input{
-    width: 350px;
-    height: 50px;
+    width: 250px;
+    height: 40px;
 }
 
 .header-info{
@@ -217,6 +224,15 @@ h1{
     background-repeat: no-repeat;
 }
 
+
+.feature-image img{
+    width: 100%;
+}
+
+.feature-section{
+    padding: 40px;
+}
+
 /*Product page*/
 
 .product-main{
@@ -316,11 +332,11 @@ blockquote::before{
       font-weight: bold;
   }
 
-  .resource-name-performing{
+  .resource-name-performing, .color-performing{
       color: blue;
   }
 
-  .resource-name-digital{
+  .resource-name-digital, .color-digital{
       color: red;
   }
 

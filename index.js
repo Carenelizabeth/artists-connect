@@ -69,6 +69,30 @@ function handleNavButtons(){
     })
 }
 
+function displayFeatures(){
+    let data1 = renderFeatures(1)
+    let data2 = renderFeatures(2)
+    let data3 = renderFeatures(0)
+
+    $('.js-feature-left').html(data1);
+    $('.js-feature-center').html(data2);
+    $('.js-feature-right').html(data3);
+}
+
+function renderFeatures(index){
+    return`
+        <div class="each-feature">
+            <div class="feature-image">
+                <img src="${locationSTORE[index].ImageURL}" class="feature-image">
+            </div>
+            <a href="${window.location.href}/product?${index}" class="color-${locationSTORE[index].Category}">
+                <h3>${locationSTORE[index].Name}</h3>
+            </a>
+            <p class="feature-description">${locationSTORE[index].Description}</p>
+        </div>
+    `
+}
 
 handleColorIcons();
 handleNavButtons();
+displayFeatures();
