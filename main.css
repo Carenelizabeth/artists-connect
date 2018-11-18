@@ -406,6 +406,29 @@ blockquote::before{
       background-image: url(assets/lv-map.png);
       background-size: cover;
       background-position: center;
-      height: 80vh;
+      height: 65vh;
+      margin-bottom: 5vh;
   }
 
+  .search-filter-form{
+      width: 100vw;
+      background-color: #E3EBED;
+      display: flex;
+      justify-content: space-around;
+      padding: 15px;
+      border-radius: 5px;
+      margin-left: 20px;
+      margin-bottom: 5vh;
+  }
+
+  .each-input label{
+      font-weight: bold;
+      color: #0F1617;
+      margin-right: 10px;
+  }
+
+  .each-input select{
+      height: 40px;
+      width: 200px;
+      border-radius:5px;
+  }

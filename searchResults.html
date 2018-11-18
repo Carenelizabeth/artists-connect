@@ -22,19 +22,31 @@
         <div class="container-fluid large-map"></div>
         <div class="row filter-input">
             <form class="search-filter-form">
-                <label for="filter-types">Resource Type</label>
-                <select class="search-filter" id="filter-types">
-                    <option value="space">Space</option>
-                    <option value="equiptment">Equiptment</option>
-                    <option value="skills">Skills</option>
-                </select>
-                <label for="filter-subcategories">Subcategories</label>
-                <select class="search-filter" id="filter-subcategories">
-                    <option value="photography">Photography</option>
-                    <option value="video">Video</option>
-                    <option value="drawing">Drawing</option>
-                    <option value="software">Software</option>
-                </select>
+                <div class="each-input">
+                    <label for="filter-types">Resource Type</label>
+                    <select class="search-filter" id="filter-types">
+                        <option value="space">Space</option>
+                        <option value="equipment">Equiptment</option>
+                        <option value="skills">Skills</option>
+                    </select>
+                </div>
+                <div class="each-input">
+                    <label for="filter-subcategories">Subcategories</label>
+                    <select class="search-filter" id="filter-subcategories">
+                        <option value="photography">Photography</option>
+                        <option value="video">Video</option>
+                        <option value="drawing">Drawing</option>
+                        <option value="software">Software</option>
+                    </select>
+                </div>
+                <div class="each-input">
+                    <label for="another-filter">Another Filter</label>
+                    <select class="search-filter" id="another-filter">
+                        <option value="1">Option1</option>
+                        <option value="2">Option2</option>
+                        <option value="3">Option3</option>
+                    </select>
+                </div>
             </form>
         </div>
         <div class="row search-results"></div>
