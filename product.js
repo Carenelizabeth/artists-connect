@@ -6,7 +6,7 @@ function handlePageLoad(){
     amendIcon(productId);
 }
 
-function getQueryVariable(variable){
+function getQueryVariable(){
     let query = window.location.search.substring(1);
     if(query){
         return query;
@@ -21,7 +21,8 @@ function amendImage(id){
 
 function renderImage(index){
     return`
-        <img src="${locationSTORE[index].ImageURL}" class="product-image">    
+        <img src="${locationSTORE[index].ImageURL}" class="product-image">
+        <button class="book-now book-now-${locationSTORE[index].Category}">Request</button>    
     `
 }
 

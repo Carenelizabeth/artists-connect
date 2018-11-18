@@ -8,22 +8,14 @@ function amendSearchResults(){
 function renderSearchResults(result, index){
     console.log(result)
     return`
-        <div class="each-result row">
-            <div class="result-image col-md-4">
+        <div class="each-result result-${result.Category}">
+            <div class="result-image">
                 <img src="${result.ImageURL}">
             </div>
-            <div class="result-info col-md-8">
-                <div class="result-title">
-                    <div>
-                        <a href="http://www.artistconnect.co/product?${index}" class="product-link product-link-${result.Category}">
-                            <h3>${result.Name}</h3>
-                        </a>
-                    </div>
-                    <div class="review-rating"></div>
-                </div>
-                <div class="result-description">
-                    <p>${result.Description}</p>
-                </div>
+            <div class="result-title">
+                <a href="http://www.artistconnect.co/product?${index}" class="product-link product-link-${result.Category}">
+                    <h5>${result.Name}</h5>
+                </a>
             </div>
         </div>
     `

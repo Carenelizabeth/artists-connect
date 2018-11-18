@@ -261,6 +261,8 @@ h1{
 .product-image{
     height: 100%;
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .product-map{
@@ -400,6 +402,41 @@ blockquote::before{
       background-image: url(assets/blue-slice.png)
   }
 
+  .book-now{
+      margin-top: 20px;
+      height: 80px;
+      width: 200px;
+      color: white;
+      border-radius: 5px;
+      align-self: flex-end;
+      font-size: 32px;
+      font-weight: bold;
+  }
+
+.book-now-performing{
+    background-color: #ef694d;
+}
+
+.book-now-digital{
+    background-color:#85d66b;
+}
+
+.book-now-crafts{
+    background-color: #4190ce;
+}
+
+.book-now-fabrication{
+    background-color: #bb3cea;
+}
+
+.book-now-fine{
+    background-color: #f3e762;
+}
+
+.book-now-music{
+    background-color: #fcba4a;
+}
+
 
   /*Search page*/
   .large-map{
@@ -436,23 +473,38 @@ blockquote::before{
       border-radius:5px;
   }
 
-  .each-result{
+  .search-results{
       display: flex;
-      padding:20px;
+      flex-wrap: wrap;
+      padding: 20px;
+  }
+
+  .each-result{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:20px;
+    flex: auto;
+    flex-basis: 200px;
+    min-height: 320px;
+    margin: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: -1px 3px 16px 0px rgba(15,22,23,0.62);
+    -moz-box-shadow: -1px 3px 16px 0px rgba(15,22,23,0.62);
+    box-shadow: -1px 3px 16px 0px rgba(15,22,23,0.62);
   }
 
   .result-image img{
-    height: 90%;
-    width: 90%;
-    padding-left: 20px;
-  }
-
-  .each-result:nth-child(even){
-      background-color: #E3EBED;
+    height: 100%;
+    width: 100%;
   }
 
   a{
       color: black;
+  }
+
+  h5{
+      text-align: center;
   }
 
   .product-link{
@@ -463,3 +515,27 @@ blockquote::before{
     text-decoration: none;
     color: red;
   }
+
+  .result-performing{
+    border: 4px solid #ef694d;
+}
+
+.result-digital{
+    border: 4px solid #85d66b;
+}
+
+.result-crafts{
+    border: 4px solid #4190ce;
+}
+
+.result-fabrication{
+    border: 4px solid #bb3cea;
+}
+
+.result-fine{
+    border: 4px solid #f3e762;
+}
+
+.result-music{
+    border: 4px solid #fcba4a;
+}
