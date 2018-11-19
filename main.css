@@ -34,8 +34,10 @@ nav{
     height: 75px;
 }
 
-li h3:hover{
-    color: blue;
+.nav-link{
+    color: white;
+    size: 36px;
+    font-weight: bold;
 }
 
 .sign-up-group{
@@ -93,9 +95,30 @@ h1{
     padding: 0;
 }
 
+.about-us-section{
+    padding: 50px 50px 10px 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.group-image{
+    height: 200px;
+    background-image: url("assets/avatars.PNG");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .color-wheel-section{
     height: 500px;
     position: relative;
+}
+
+.feature-section{
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .feature-stories{
@@ -514,10 +537,6 @@ blockquote::before{
       color:black;
   }
 
-  .product-link:active{
-    text-decoration: none;
-    color: red;
-  }
 
   .result-performing{
     border: 4px solid #ef694d;
@@ -541,4 +560,8 @@ blockquote::before{
 
 .result-music{
     border: 4px solid #fcba4a;
+}
+
+@media only screen and (min-width: 800px){
+
 }
