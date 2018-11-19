@@ -577,7 +577,7 @@ blockquote::before{
 
 /*pitch*/
 
-.our-pitch, .join-us, .results-text{
+.our-pitch, .join-us, .results-text, .warning-messsage{
     max-width: 1200;
     padding: 50px 50px 0 50px;
 }
