@@ -34,12 +34,6 @@ nav{
     height: 75px;
 }
 
-.nav-link{
-    color: white;
-    size: 36px;
-    font-weight: bold;
-}
-
 .sign-up-group{
     position: absolute;
     right: 0;
@@ -48,7 +42,7 @@ nav{
     padding-right: 30px;
     height: 75px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -560,6 +554,13 @@ blockquote::before{
 
 .result-music{
     border: 4px solid #fcba4a;
+}
+
+/*pitch*/
+
+.our-pitch, .join-us{
+    max-width: 1200;
+    padding: 50px 50px 0 50px;
 }
 
 @media only screen and (min-width: 800px){
