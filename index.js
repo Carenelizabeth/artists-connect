@@ -71,6 +71,14 @@ function handleNavButtons(){
     $('.js-home-button').click(function(){
         window.location = "http://www.artistconnect.co/"
     })
+    $('.js-view-pitch').click(function(){
+        window.location = "http://www.artistconnect.co/pitch"
+    })
+    $('.js-sign-up').click(function(){
+        console.log('sign up');
+        window.location = "http://www.artistconnect.co/"
+
+    })
 }
 
 function displayFeatures(){
@@ -97,6 +105,20 @@ function renderFeatures(index){
     `
 }
 
-handleColorIcons();
-handleNavButtons();
-displayFeatures();
+function handlePageLoad(){
+    handleColorIcons();
+    handleNavButtons();
+    displayFeatures();
+    getQueryVariable();
+}
+
+function getQueryVariable(){
+    let query = window.location.search.substring(1);
+    if(query === 'signup'){
+        var elmnt = document.getElementById("mc_embed_signup");
+        elmnt.scrollIntoView();
+    }
+}
+
+
+handlePageLoad();
