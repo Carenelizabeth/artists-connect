@@ -76,7 +76,7 @@ function handleNavButtons(){
     })
     $('.js-sign-up').click(function(){
         console.log('sign up');
-        window.location = "http://www.artistconnect.co/"
+        window.location = "http://www.artistconnect.co/signup"
 
     })
 }
